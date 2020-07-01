@@ -1,0 +1,122 @@
+section{
+	margin-top: 60px;
+}
+
+section:first-child{
+	margin-top: 40px;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+li{
+	list-style-type: none;
+}
+
+.categoryHeader{
+	background-color: #4CAF50;
+	padding: 13px;
+	color: #eee;
+	font-style: oblique;
+}
+
+
+
+.categoryNav li a{
+	color: #232323;
+	text-decoration: none;
+	transition: 0.2s all;
+	font-size: 20px;
+}
+
+.categoryNav li a:hover{
+	color: #d6b161;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #d6b161;
+
+}
+
+.categoryNav .list-inline-item{
+	margin:0 20px;
+}
+
+
+.slider{
+	padding: 250px;
+	background-image: url("../img/sorasak.jpg");
+	background-attachment: fixed;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.backendImg{
+	width: 400px;
+	height: 300px;
+}
+
+
+.backendBorder{
+	border: 1px solid #CFD8DC;
+	padding: 30px;
+	margin-left: -1px;
+	transition: 0.3s all;
+}
+
+.backendBorder:hover{
+	background-color: rgba(0,0,0,0.5);
+	color:#eee;
+}
+
+.originPrice{
+	text-decoration: line-through;
+}
+
+.fadeText {
+	animation-name: fadeFunction;
+	animation-duration: 5s;
+	animation-iteration-count:infinite;
+	color: #eee;
+  }
+
+
+@keyframes fadeFunction {
+	0% {opacity: 0} 
+	50% {opacity: 1}
+	100% {opacity: 0}
+}
+
+.categoryList ul{
+	border: 1px solid #CFD8DC;;
+	margin-left: -15px;
+	width: 120px;
+	
+}
+
+.categoryList li{
+	font-size: 24px;
+	padding: 10px;
+	
+	
+}
+
+.categoryList li:first-child{
+	background-color: #FFE57F;
+	font-size: 20px;
+}
+
+.categoryList li a{
+	color: #333;
+	text-decoration: none;
+	border-bottom: 1px solid #333;
+	padding-bottom: 5px;
+	font-size: 24px;
+	transition: 0.3s all;
+}
+
+.categoryList li a:hover{
+	color:#d6b161;
+	font-size: 30px;
+}
